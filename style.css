@@ -6,14 +6,20 @@
 
 body {
     display: flex;
+    flex-direction: column;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     height: 100vh;
     font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
     color: darkblue;
     font-size: 2em;
-    font-family: 'Courier New', Courier, monospace;
+}
+
+#my_text {
+    color: darkorange;
 }
